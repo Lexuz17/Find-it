@@ -26,12 +26,8 @@ struct ContentView: View {
             
             NavigationView {
                 VStack {
-                    Text("Test")
-                        .font(.title)
-                        .padding()
-                    Spacer()
+                    TestDashboardView()
                 }
-                .navigationBarTitle("Test")
             }
             .tabItem {
                 Image(systemName: "heart.text.square")

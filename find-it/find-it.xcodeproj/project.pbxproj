@@ -12,6 +12,7 @@
 		2DD90EE42A0B20EA00B4A7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD90EE32A0B20EA00B4A7F0 /* Assets.xcassets */; };
 		2DD90EE72A0B20EA00B4A7F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD90EE62A0B20EA00B4A7F0 /* Preview Assets.xcassets */; };
 		2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC2F532A0F7567002B0242 /* ProfileView.swift */; };
+		2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2DD90EE32A0B20EA00B4A7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD90EE62A0B20EA00B4A7F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DEC2F532A0F7567002B0242 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				2DD90EE32A0B20EA00B4A7F0 /* Assets.xcassets */,
 				2DD90EE52A0B20EA00B4A7F0 /* Preview Content */,
 				2DEC2F532A0F7567002B0242 /* ProfileView.swift */,
+				2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */,
 			);
 			path = "find-it";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD90EE22A0B20E900B4A7F0 /* ContentView.swift in Sources */,
+				2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */,
 				2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */,
 				2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */,
 			);
