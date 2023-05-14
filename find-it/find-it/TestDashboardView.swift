@@ -24,7 +24,7 @@ struct TestDashboardView: View {
                 Spacer().frame(height: 25.0)
 
                 ForEach(db.tests, id: \.self) { test in
-                    NavigationLink(destination: TestDetailView()) {
+                    NavigationLink(destination: ConfirmationTestView()) {
                         HStack {
                             Image(test.image_name ?? "")
                                 .resizable()

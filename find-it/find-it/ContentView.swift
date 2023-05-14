@@ -12,8 +12,8 @@ struct ContentView: View {
         TabView {
             NavigationView {
                 VStack {
+                    HomeView(db: TestViewModel.shared)
                 }
-                .navigationBarTitle("Home")
             }
             .tabItem {
                 Image(systemName: "house")
@@ -59,6 +59,20 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WelcomeView()
+    }
+}
+
+struct PrimaryButton: View {
+    var title: String
+    var body: some View {
+        Text(title)
+            .font(.title2)
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .frame(width: 200)
+            .padding()
+            .background(Color("PrimaryColor"))
+            .cornerRadius(50)
     }
 }

@@ -19,6 +19,17 @@
 		2DD90EE72A0B20EA00B4A7F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD90EE62A0B20EA00B4A7F0 /* Preview Assets.xcassets */; };
 		2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC2F532A0F7567002B0242 /* ProfileView.swift */; };
 		2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */; };
+		6880F5232A11223300231FC5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5222A11223300231FC5 /* HomeView.swift */; };
+		6880F5282A11253E00231FC5 /* MiniTestCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5272A11253E00231FC5 /* MiniTestCard.swift */; };
+		6880F52A2A11311C00231FC5 /* MiniTreatmentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5292A11311C00231FC5 /* MiniTreatmentCard.swift */; };
+		6880F52C2A1134A400231FC5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F52B2A1134A400231FC5 /* SignInView.swift */; };
+		6880F52E2A1134BB00231FC5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F52D2A1134BB00231FC5 /* WelcomeView.swift */; };
+		6880F5322A11352300231FC5 /* Content-ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5312A11352300231FC5 /* Content-ViewModule.swift */; };
+		6880F5342A11372C00231FC5 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5332A11372C00231FC5 /* SubscriptionView.swift */; };
+		6880F5362A11395200231FC5 /* ConfirmationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5352A11395200231FC5 /* ConfirmationTestView.swift */; };
+		6880F5382A11397F00231FC5 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5372A11397F00231FC5 /* PageView.swift */; };
+		6880F53A2A1139D000231FC5 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F5392A1139D000231FC5 /* PageModel.swift */; };
+		6880F53C2A113BB400231FC5 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880F53B2A113BB400231FC5 /* RewardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,17 @@
 		2DD90EE62A0B20EA00B4A7F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DEC2F532A0F7567002B0242 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDashboardView.swift; sourceTree = "<group>"; };
+		6880F5222A11223300231FC5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6880F5272A11253E00231FC5 /* MiniTestCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MiniTestCard.swift; path = ../MiniTestCard.swift; sourceTree = "<group>"; };
+		6880F5292A11311C00231FC5 /* MiniTreatmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniTreatmentCard.swift; sourceTree = "<group>"; };
+		6880F52B2A1134A400231FC5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		6880F52D2A1134BB00231FC5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6880F5312A11352300231FC5 /* Content-ViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModule.swift"; sourceTree = "<group>"; };
+		6880F5332A11372C00231FC5 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		6880F5352A11395200231FC5 /* ConfirmationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationTestView.swift; sourceTree = "<group>"; };
+		6880F5372A11397F00231FC5 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		6880F5392A1139D000231FC5 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		6880F53B2A113BB400231FC5 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +96,20 @@
 				2DEC2F532A0F7567002B0242 /* ProfileView.swift */,
 				2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */,
 				2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */,
+				6880F5222A11223300231FC5 /* HomeView.swift */,
+				6880F5262A11244E00231FC5 /* Model */,
 				2DB9DD192A109C4700CC3761 /* TestDetailView.swift */,
+				6880F53B2A113BB400231FC5 /* RewardView.swift */,
 				2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */,
 				2DB9DD1D2A10E6B300CC3761 /* Database.xcdatamodeld */,
 				2DB9DD202A10E7C500CC3761 /* CoreDataManager.swift */,
 				2DB9DD232A10E8B800CC3761 /* TestViewModel.swift */,
+				6880F52B2A1134A400231FC5 /* SignInView.swift */,
+				6880F52D2A1134BB00231FC5 /* WelcomeView.swift */,
+				6880F5312A11352300231FC5 /* Content-ViewModule.swift */,
+				6880F5332A11372C00231FC5 /* SubscriptionView.swift */,
+				6880F5352A11395200231FC5 /* ConfirmationTestView.swift */,
+				6880F5372A11397F00231FC5 /* PageView.swift */,
 			);
 			path = "find-it";
 			sourceTree = "<group>";
@@ -89,6 +120,16 @@
 				2DD90EE62A0B20EA00B4A7F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6880F5262A11244E00231FC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6880F5272A11253E00231FC5 /* MiniTestCard.swift */,
+				6880F5292A11311C00231FC5 /* MiniTreatmentCard.swift */,
+				6880F5392A1139D000231FC5 /* PageModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,13 +202,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6880F52A2A11311C00231FC5 /* MiniTreatmentCard.swift in Sources */,
 				2DD90EE22A0B20E900B4A7F0 /* ContentView.swift in Sources */,
 				2DB9DD1A2A109C4700CC3761 /* TestDetailView.swift in Sources */,
+				6880F5342A11372C00231FC5 /* SubscriptionView.swift in Sources */,
 				2DB9DD242A10E8B800CC3761 /* TestViewModel.swift in Sources */,
 				2DB9DD1F2A10E6B400CC3761 /* Database.xcdatamodeld in Sources */,
 				2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */,
+				6880F5382A11397F00231FC5 /* PageView.swift in Sources */,
+				6880F5232A11223300231FC5 /* HomeView.swift in Sources */,
 				2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */,
+				6880F5362A11395200231FC5 /* ConfirmationTestView.swift in Sources */,
+				6880F52C2A1134A400231FC5 /* SignInView.swift in Sources */,
 				2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */,
+				6880F52E2A1134BB00231FC5 /* WelcomeView.swift in Sources */,
+				6880F5282A11253E00231FC5 /* MiniTestCard.swift in Sources */,
+				6880F5322A11352300231FC5 /* Content-ViewModule.swift in Sources */,
+				6880F53C2A113BB400231FC5 /* RewardView.swift in Sources */,
+				6880F53A2A1139D000231FC5 /* PageModel.swift in Sources */,
 				2DB9DD212A10E7C500CC3761 /* CoreDataManager.swift in Sources */,
 				2DB9DD1C2A10CCA900CC3761 /* TreatmentDetailView.swift in Sources */,
 				2DB9DD182A1095FF00CC3761 /* TreatmentDashboardView.swift in Sources */,

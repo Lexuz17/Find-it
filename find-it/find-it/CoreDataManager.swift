@@ -1,9 +1,4 @@
-//
-//  CoreDataManager.swift
-//  find-it
-//
-//  Created by Elyssa Davina Giovanni on 14/05/23.
-//
+
 
 import Foundation
 import CoreData

@@ -47,15 +47,14 @@ struct ProfileView: View {
                 Spacer()
                     .frame(height: 25.0)
 
-                VStack {
-                    HStack {
+                NavigationLink(
+                    destination: SubscriptionView()
+                    , label: {
                         Text("Your Subscription")
-                            .fontWeight(.medium)
-                            .foregroundColor(Color("575DB0"))
-                        Spacer()
-                    }
+                        .fontWeight(.medium)
+                        .foregroundColor(Color("575DB0"))
                     Spacer()
-                }
+                })
                 .frame(height: 120.0)
                 .padding(.all, 20.0)
                 .background(
@@ -87,11 +86,11 @@ struct ProfileView: View {
                 Spacer()
             }
             .padding(.all, 40.0)
-            .background(
-                LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
-                    .edgesIgnoringSafeArea(.all)
-            )
         }
+        .background(
+            LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 
