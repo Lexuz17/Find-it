@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2DB9DD182A1095FF00CC3761 /* TreatmentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */; };
 		2DB9DD1A2A109C4700CC3761 /* TestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD192A109C4700CC3761 /* TestDetailView.swift */; };
+		2DB9DD1C2A10CCA900CC3761 /* TreatmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */; };
 		2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD90EDF2A0B20E900B4A7F0 /* find_itApp.swift */; };
 		2DD90EE22A0B20E900B4A7F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD90EE12A0B20E900B4A7F0 /* ContentView.swift */; };
 		2DD90EE42A0B20EA00B4A7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD90EE32A0B20EA00B4A7F0 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentDashboardView.swift; sourceTree = "<group>"; };
 		2DB9DD192A109C4700CC3761 /* TestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailView.swift; sourceTree = "<group>"; };
+		2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentDetailView.swift; sourceTree = "<group>"; };
 		2DD90EDC2A0B20E900B4A7F0 /* find-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "find-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD90EDF2A0B20E900B4A7F0 /* find_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_itApp.swift; sourceTree = "<group>"; };
 		2DD90EE12A0B20E900B4A7F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				2DEC2F552A0F83C6002B0242 /* TestDashboardView.swift */,
 				2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */,
 				2DB9DD192A109C4700CC3761 /* TestDetailView.swift */,
+				2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */,
 			);
 			path = "find-it";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */,
 				2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */,
 				2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */,
+				2DB9DD1C2A10CCA900CC3761 /* TreatmentDetailView.swift in Sources */,
 				2DB9DD182A1095FF00CC3761 /* TreatmentDashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

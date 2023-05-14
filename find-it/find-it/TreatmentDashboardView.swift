@@ -30,7 +30,7 @@ struct TreatmentDashboardView: View {
                     .frame(height: 25.0)
                 
                 ForEach(Array(treatments.enumerated()), id: \.element) { (index, treatment) in
-                    NavigationLink(destination: TestDetailView()) {
+                    NavigationLink(destination: TreatmentDetailView()) {
                         if treatment == "PTSD" || treatment == "Addiction" {
                             ZStack {
                                 VStack {
