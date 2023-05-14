@@ -12,10 +12,6 @@ struct ContentView: View {
         TabView {
             NavigationView {
                 VStack {
-                    Text("Home")
-                        .font(.title)
-                        .padding()
-                    Spacer()
                 }
                 .navigationBarTitle("Home")
             }
@@ -36,12 +32,8 @@ struct ContentView: View {
             
             NavigationView {
                 VStack {
-                    Text("Treatment")
-                        .font(.title)
-                        .padding()
-                    Spacer()
+                    TreatmentDashboardView()
                 }
-                .navigationBarTitle("Treatment")
             }
             .tabItem {
                 Image(systemName: "bandage")

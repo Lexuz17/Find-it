@@ -15,10 +15,7 @@ struct ProfileView: View {
                     Text("Profile")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(
-                            red: 0.34,
-                            green: 0.366,
-                            blue: 0.692))
+                        .foregroundColor(Color("575DB0"))
                     Spacer()
                 }
                 Spacer()
@@ -27,7 +24,7 @@ struct ProfileView: View {
                 VStack {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10)
-                            .fill(Color(red: 0.9058823529411765, green: 0.9098039215686274, blue: 1.0))
+                            .fill(Color("E7E8FF"))
                             .frame(height: 130.0)
                             .offset(x: 0.0, y: 80)
 
@@ -41,7 +38,7 @@ struct ProfileView: View {
 
                     Text("Username")
                         .fontWeight(.medium)
-                        .foregroundColor(Color(red: 0.34, green: 0.366, blue: 0.692))
+                        .foregroundColor(Color("575DB0"))
 
                     Spacer()
                         .frame(height: 30.0)
@@ -54,7 +51,7 @@ struct ProfileView: View {
                     HStack {
                         Text("Your Subscription")
                             .fontWeight(.medium)
-                            .foregroundColor(Color(red: 0.34, green: 0.366, blue: 0.692))
+                            .foregroundColor(Color("575DB0"))
                         Spacer()
                     }
                     Spacer()
@@ -74,7 +71,7 @@ struct ProfileView: View {
                     HStack {
                         Text("Diagnoses")
                             .fontWeight(.medium)
-                            .foregroundColor(Color(red: 0.34, green: 0.366, blue: 0.692))
+                            .foregroundColor(Color("575DB0"))
                         Spacer()
                     }
                     Spacer()
@@ -91,11 +88,7 @@ struct ProfileView: View {
             }
             .padding(.all, 40.0)
             .background(
-                LinearGradient(colors: [.white, Color(
-                    red: 231 / 255,
-                    green: 232 / 255,
-                    blue: 255 / 255
-                )], startPoint: .top, endPoint: .bottom)
+                LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
             )
         }
