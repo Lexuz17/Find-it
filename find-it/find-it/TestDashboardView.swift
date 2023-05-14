@@ -25,9 +25,7 @@ struct TestDashboardView: View {
                     .frame(height: 25.0)
                 
                 ForEach(Array(tests.enumerated()), id: \.element) { (index, test) in
-                    Button(action: {
-                        print("Button tapped!")
-                    }) {
+                    NavigationLink(destination: TestDetailView()) {
                         HStack {
                             Image(images[index % 3])
                                 .resizable()
@@ -39,6 +37,7 @@ struct TestDashboardView: View {
                                     Text(test + " Test")
                                         .fontWeight(.bold)
                                         .foregroundColor(Color("575DB0"))
+                                        .multilineTextAlignment(.leading)
                                     Spacer()
                                 }
                                 Spacer()
