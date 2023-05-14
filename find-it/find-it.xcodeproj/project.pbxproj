@@ -10,6 +10,9 @@
 		2DB9DD182A1095FF00CC3761 /* TreatmentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */; };
 		2DB9DD1A2A109C4700CC3761 /* TestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD192A109C4700CC3761 /* TestDetailView.swift */; };
 		2DB9DD1C2A10CCA900CC3761 /* TreatmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */; };
+		2DB9DD1F2A10E6B400CC3761 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD1D2A10E6B300CC3761 /* Database.xcdatamodeld */; };
+		2DB9DD212A10E7C500CC3761 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD202A10E7C500CC3761 /* CoreDataManager.swift */; };
+		2DB9DD242A10E8B800CC3761 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9DD232A10E8B800CC3761 /* TestViewModel.swift */; };
 		2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD90EDF2A0B20E900B4A7F0 /* find_itApp.swift */; };
 		2DD90EE22A0B20E900B4A7F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD90EE12A0B20E900B4A7F0 /* ContentView.swift */; };
 		2DD90EE42A0B20EA00B4A7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD90EE32A0B20EA00B4A7F0 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentDashboardView.swift; sourceTree = "<group>"; };
 		2DB9DD192A109C4700CC3761 /* TestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailView.swift; sourceTree = "<group>"; };
 		2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentDetailView.swift; sourceTree = "<group>"; };
+		2DB9DD1E2A10E6B400CC3761 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		2DB9DD202A10E7C500CC3761 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2DB9DD232A10E8B800CC3761 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		2DD90EDC2A0B20E900B4A7F0 /* find-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "find-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD90EDF2A0B20E900B4A7F0 /* find_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_itApp.swift; sourceTree = "<group>"; };
 		2DD90EE12A0B20E900B4A7F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				2DB9DD172A1095FF00CC3761 /* TreatmentDashboardView.swift */,
 				2DB9DD192A109C4700CC3761 /* TestDetailView.swift */,
 				2DB9DD1B2A10CCA900CC3761 /* TreatmentDetailView.swift */,
+				2DB9DD1D2A10E6B300CC3761 /* Database.xcdatamodeld */,
+				2DB9DD202A10E7C500CC3761 /* CoreDataManager.swift */,
+				2DB9DD232A10E8B800CC3761 /* TestViewModel.swift */,
 			);
 			path = "find-it";
 			sourceTree = "<group>";
@@ -154,9 +163,12 @@
 			files = (
 				2DD90EE22A0B20E900B4A7F0 /* ContentView.swift in Sources */,
 				2DB9DD1A2A109C4700CC3761 /* TestDetailView.swift in Sources */,
+				2DB9DD242A10E8B800CC3761 /* TestViewModel.swift in Sources */,
+				2DB9DD1F2A10E6B400CC3761 /* Database.xcdatamodeld in Sources */,
 				2DEC2F562A0F83C6002B0242 /* TestDashboardView.swift in Sources */,
 				2DEC2F542A0F7567002B0242 /* ProfileView.swift in Sources */,
 				2DD90EE02A0B20E900B4A7F0 /* find_itApp.swift in Sources */,
+				2DB9DD212A10E7C500CC3761 /* CoreDataManager.swift in Sources */,
 				2DB9DD1C2A10CCA900CC3761 /* TreatmentDetailView.swift in Sources */,
 				2DB9DD182A1095FF00CC3761 /* TreatmentDashboardView.swift in Sources */,
 			);
@@ -357,6 +369,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DB9DD1D2A10E6B300CC3761 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DB9DD1E2A10E6B400CC3761 /* Database.xcdatamodel */,
+			);
+			currentVersion = 2DB9DD1E2A10E6B400CC3761 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2DD90ED42A0B20E900B4A7F0 /* Project object */;
 }

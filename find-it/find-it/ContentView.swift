@@ -22,7 +22,7 @@ struct ContentView: View {
             
             NavigationView {
                 VStack {
-                    TestDashboardView()
+                    TestDashboardView(db: TestViewModel.shared)
                 }
             }
             .tabItem {
