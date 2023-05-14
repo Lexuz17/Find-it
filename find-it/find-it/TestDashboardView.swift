@@ -68,19 +68,18 @@ struct TestDashboardView: View {
                             .fill(Color.white)
                             .shadow(radius: 1)
                         )
-                        .frame(maxWidth: .infinity)
                     }
                     Spacer()
                         .frame(height: 20.0)
                 }
             }
             .padding(.all, 40.0)
-            .background(
-                LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
-                    .edgesIgnoringSafeArea(.all)
-            )
             .frame(maxHeight: .infinity)
         }
+        .background(
+            LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 

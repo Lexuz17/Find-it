@@ -87,11 +87,11 @@ struct ProfileView: View {
                 Spacer()
             }
             .padding(.all, 40.0)
-            .background(
-                LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
-                    .edgesIgnoringSafeArea(.all)
-            )
         }
+        .background(
+            LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 
