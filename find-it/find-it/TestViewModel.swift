@@ -44,7 +44,6 @@ class TestViewModel: ObservableObject {
         
         do {
             try context.save()
-            fetchData()
         } catch {
             print("Error saving data: \(error)")
         }
