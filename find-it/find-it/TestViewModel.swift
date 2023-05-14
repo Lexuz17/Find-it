@@ -21,15 +21,18 @@ class TestViewModel: ObservableObject {
     }
     
     func fetchData() {
-        let request: NSFetchRequest<Tests> = Tests.fetchRequest()
+        let request: NSFetchRequest<NSFetchRequestResult> = Tests.fetchRequest()
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: request)
         
         do {
-            tests.removeAll()
-            tests = try context.fetch(request)
+            try context.execute(deleteRequest)
+            loadData()
+            tests = try context.fetch(Tests.fetchRequest())
         } catch {
             print("Error fetching data: \(error)")
         }
     }
+
     
     func addItem(name: String, duration: String, image_name: String, description: String) {
         let newTest = Tests(context: context)
@@ -48,14 +51,19 @@ class TestViewModel: ObservableObject {
     }
     
     func loadData() {
+        tests.removeAll()
+        
         let images = ["DepressionImage", "AnxietyImage", "BipolarImage", "DepressionImage", "AnxietyImage", "BipolarImage", "DepressionImage", "AnxietyImage"]
         let names = ["Depression", "Anxiety", "Bipolar", "PTSD", "Youth Mental Health", "Pychosis & Scizorphernia", "Eating Disorder", "Addiction"]
         let durations = ["10", "10", "10", "10", "10", "10", "10", "10"]
         let descriptions = ["Description", "Description", "Description", "Description", "Description", "Description", "Description", "Description"]
 
         for index in 0..<images.count {
-            addItem(name: names[index], duration: durations[index], image_name: images[index], description: descriptions[index])
+            let name = names[index]
+            let duration = durations[index]
+            let image = images[index]
+            let description = descriptions[index]
+            addItem(name: name, duration: duration, image_name: image, description: description)
         }
     }
 }
-

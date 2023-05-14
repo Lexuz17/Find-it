@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TestDashboardView: View {
     @ObservedObject var db: TestViewModel
-
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -22,7 +22,7 @@ struct TestDashboardView: View {
                 }
                 
                 Spacer().frame(height: 25.0)
-                
+
                 ForEach(db.tests, id: \.self) { test in
                     NavigationLink(destination: TestDetailView()) {
                         HStack {
@@ -30,7 +30,7 @@ struct TestDashboardView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(height: 150)
-                            
+
                             VStack(alignment: .leading) {
                                 HStack {
                                     Text("\(test.test_name ?? "") Test")
@@ -77,14 +77,13 @@ struct TestDashboardView: View {
                 .edgesIgnoringSafeArea(.all)
         )
         .onAppear {
-            db.loadData()
             db.fetchData()
         }
     }
-}
-
-struct TestDashboardView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestDashboardView(db: TestViewModel.shared)
+    
+    struct TestDashboardView_Previews: PreviewProvider {
+        static var previews: some View {
+            TestDashboardView(db: TestViewModel.shared)
+        }
     }
 }
