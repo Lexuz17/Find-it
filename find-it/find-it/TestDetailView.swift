@@ -28,6 +28,8 @@ struct TestDetailView: View {
     
     var body: some View {
         VStack {
+            Spacer()
+            
             Text(questions[currentQuestionIndex])
                 .font(.title2)
                 .fontWeight(.bold)
@@ -55,6 +57,8 @@ struct TestDetailView: View {
                 Spacer()
                     .frame(height: 30.0)
             }
+            
+            Spacer()
         }
         .padding(40)
         .onChange(of: selectedAnswer) { newValue in
@@ -63,6 +67,11 @@ struct TestDetailView: View {
                 selectedAnswer = nil
             }
         }
+        .background(
+            LinearGradient(colors: [.white, Color("E7E8FF")], startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+        )
+        
     }
 }
 
