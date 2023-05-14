@@ -7,3 +7,5 @@ Nama Anggota:
 3. Felicia Natania
 
 JEF Mental. adalah sebuah aplikasi mobile yang dapat mengukur potensi gangguan kesehatan mental seseorang. Aplikasi ini memungkinkan penggunaan untuk melakukan beberapa treatment rekomendasi level pengukurannya yang sudah didapat sebelumnya. Diharapkan aplikasi ini bisa mengakomodasi pasien dengan self treatment yang disediakan untuk menjadi pendampingi pasien dalam mental wellness journey mereka.
+
+Untuk menjalankan ini dapat dirun file contentView.
