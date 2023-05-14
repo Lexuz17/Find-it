@@ -117,6 +117,88 @@ struct TreatmentDashboardView: View {
                                     .fill(colors[index % 3])
                                     .shadow(radius: 2)
                             )
+                        } else if treatment == "Depression" || treatment == "Anxiety" {
+                            ZStack {
+                                VStack {
+                                    ZStack {
+                                        Image(images[index % 3])
+                                            .resizable()
+                                            .frame(height: 100)
+                                        VStack {
+                                            Spacer()
+                                            HStack {
+                                                Text("20% Done")
+                                                    .frame(width: 130.0, height: 25.0)
+                                                    .font(.caption)
+                                                    .foregroundColor(.white)
+                                                    .background(
+                                                        Rectangle()
+                                                            .fill(Color("575DB0"))
+                                                            .frame(width: 130.0, height: 25.0)
+                                                    )
+                                                Spacer()
+                                            }
+                                        }
+                                    }
+                                    .padding(.horizontal, 10.0)
+                                    .padding(.top, 15.0)
+                                    
+                                    VStack {
+                                        HStack {
+                                            Text(treatment + " Treatment")
+                                                .fontWeight(.bold)
+                                                .foregroundColor(.white)
+                                                .multilineTextAlignment(.leading)
+                                            Spacer()
+                                        }
+                                        Spacer()
+                                            .frame(height: 5.0)
+                                        HStack {
+                                            Text("20 Activities")
+                                                .font(.caption)
+                                                .fontWeight(.regular)
+                                                .foregroundColor(.white)
+                                            Spacer()
+                                        }
+                                        Spacer()
+                                            .frame(height: 15.0)
+                                        HStack {
+                                            Image(systemName: "target")
+                                                .foregroundColor(Color.white)
+                                            Text("Set Goals")
+                                                .font(.caption)
+                                                .fontWeight(.semibold)
+                                                .foregroundColor(.white)
+                                            Spacer()
+                                        }
+                                    }
+                                    .padding(.horizontal, 10)
+                                    .padding(.bottom, 15)
+                                }
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                    .fill(colors[index % 3])
+                                    .shadow(radius: 2)
+                                )
+                                
+                                VStack {
+                                    Spacer()
+                                        .frame(height: 30.0)
+                                    HStack {
+                                        Spacer()
+                                        Text("Recommended")
+                                            .frame(width: 120, height: 25)
+                                            .font(.caption)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.white)
+                                            .background(
+                                                Rectangle()
+                                                    .fill(Color(red: 1, green: 107 / 255, blue: 0, opacity: 1))
+                                            )
+                                    }
+                                    Spacer()
+                                }
+                            }
                         } else {
                             VStack {
                                 ZStack {
@@ -126,7 +208,7 @@ struct TreatmentDashboardView: View {
                                     VStack {
                                         Spacer()
                                         HStack {
-                                            Text("20% Done")
+                                            Text("0% Done")
                                                 .frame(width: 130.0, height: 25.0)
                                                 .font(.caption)
                                                 .foregroundColor(.white)
